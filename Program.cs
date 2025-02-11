@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, GASTON, how are you!");
+﻿
+public class Program {
+    public static void Main(string[] args) {
+        Persona persona = new Persona(1, "Gaston", "Quelali", new DateTime(1980, 1, 1), "Calle 123");
+        persona.MostrarInformacion();
+    }
+}
