@@ -1,9 +1,13 @@
-denilson hinojosa herrera
-Nombre: hinojosadeni.md
-Email: denilsonhinojosa21@gmail.com
-Descripción: Soy un desarrollador apasionado por la tecnología.
-telefeono: 75468609
-pasatiempos: jugar dormir y comer
-sexo: masculino
-edad 21 años
-mensaje para el inge: creo que si pude ing y solito
+# DENILSON HINOJOSA
+# informacion personal
+Soy DENILSON HINOJOSA HERRERA, esudio ING. sistemas voy en 2do semestre, SEGUNDO modulo. me gusta la cocina
+## Edad
+21 años
+## Celular 
+75468609
+## Estado
+solo
+## Sexo
+Masculino
+# Mensaje para el ing.
+si pude 
