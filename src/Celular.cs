@@ -1,36 +1,22 @@
-public class Celular {
-    public int Id { get; set; }
-    public string Phonemodel { get; set; }
-    public string Android { get; set; }
-    public string Color { get; set; }
-    public int Megapixels { get; set; }
-    public int Ram { get; set; }
-    public int  Internalstorage { get; set; }
+public class Celular : DispositivoElectronico {
+    public string SistemaOperativo { get; set; }
+    public int Almacenamiento { get; set; } // En GB
+    public int MemoriaRam { get; set; } // En GB
 
     
-    public Celular (int id, string phonemodel, string android, string color, int megapixels, int ram, int  internalstorage) {
-
-    Id = id;
-    Phonemodel = phonemodel;
-    Android = android;
-    Color = color;
-    Megapixels = megapixels;
-    Ram = ram;
-    Internalstorage = internalstorage;
+    
+    public Celular(int id, string marca, string modelo, string color, int bateria, string sistemaOperativo, int almacenamiento, int memoriaRam)
+        : base(id, marca, modelo, color, bateria) { // Llama al constructor de la clase padre
+        SistemaOperativo = sistemaOperativo;
+        Almacenamiento = almacenamiento;
+        MemoriaRam = memoriaRam;
     }
 
-
-    public void MostrarInformacion() { 
-        Console.WriteLine($"Id: {Id}");
-        Console.WriteLine($"Phonemodel: {Phonemodel}");
-        Console.WriteLine($"Android: {Android}");
-        Console.WriteLine($"Color: {Color}");
-        Console.WriteLine($"Megapixels: {Megapixels}");
-        Console.WriteLine($"Ram: {Ram}");
-        Console.WriteLine($"Internalstorage: {Internalstorage}");
-        } 
-
-
-
-
+   
+    public new void MostrarInformacion() { 
+        base.MostrarInformacion(); // Llama al método de la clase padre
+        Console.WriteLine($"Sistema Operativo: {SistemaOperativo}");
+        Console.WriteLine($"Almacenamiento: {Almacenamiento} GB");
+        Console.WriteLine($"Memoria Ram: {MemoriaRam} GB");
+    }
 }

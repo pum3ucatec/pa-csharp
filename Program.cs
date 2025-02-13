@@ -5,19 +5,19 @@ public class Program {
         persona.MostrarInformacion();
 
 
-        Celular objCelular1 = new Celular(1, "GalaxyA15", "14", "Negro", 50, 4, 128);
+        Celular objCelular1 = new Celular(1, "Samsung", "GalaxyA15", "Negro", 5000, "Android", 128, 6);
         objCelular1.MostrarInformacion();
         
-        Celular objCelular2 = new Celular(2, "Realme12PRo", "13", "Verde", 100, 8, 128);
+        Celular objCelular2 = new Celular(2, "Realme", "Realme12PRo", "Verde", 5000, "Android", 256, 8);
         objCelular2.MostrarInformacion();
         
-        Celular objCelular3 = new Celular(3, "GalaxyA54", "13", "Blanco", 50, 8, 256); 
+        Celular objCelular3 = new Celular(3, "Samsung", "GalaxyA54", "Blanco", 5000, "Android", 128, 6);
         objCelular3.MostrarInformacion();
 
-        Celular objCelular4 = new Celular(4, "GooglePixel7", "13", "Obsidian", 50, 8, 256);
+        Celular objCelular4 = new Celular(4, "Google", "Pixel7", "Obsidian", 4355, "Android", 128, 8);
         objCelular4.MostrarInformacion();
 
-        Celular objCelular5 = new Celular(5, "GalacyS22", "13", "Borgoña", 108, 12, 512);
+        Celular objCelular5 = new Celular(5, "Samsung", "S22", "Borgoña", 3700, "Android", 256, 12);
         objCelular5.MostrarInformacion();
     }
 }
