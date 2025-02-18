@@ -1,7 +1,8 @@
 ﻿
 public class Program {
     public static void Main(string[] args) {
-        Persona persona = new Persona(1, "Gaston", "Quelali", new DateTime(1980, 1, 1), "Calle 123");
-        persona.MostrarInformacion();
+       Universidad objUcatec = new Universidad("UCATEC", new Administrativo(1, "Juan", "Perez", new DateTime(1980, 1, 1), "Av. 6 de Agosto", "Rector"));
+
+       objUcatec.MostrarInformacion();
     }
 }
